@@ -2,7 +2,9 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Kanit', sans-serif;
 }
+
 @media only screen and (max-width: 430px) {
 header{
     background-color: #1D3461;
@@ -18,7 +20,7 @@ header{
     height: 48px;
     width: 48px;
     float: right;
-    margin-top: 2.5%;
+    margin-top: 3.2%;
     margin-right: 3%;
 }
 #smallImgFooter{
@@ -36,12 +38,72 @@ footer{
     background-color: #1D3461;
     width: 100%;
     bottom: 0;
-    position: absolute;
+    position: fixed;
 
 }
 #logoFooter{
     margin-left: 15%;
     margin-bottom: 10px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+.Navbar {
+    background-color: #1F487E;
+    display: flex;
+    font-family: sans-serif;
+    color: #ebebeb;
+    font-size: 32px;
+    font-weight: bolder;
+    align-items: center;
+    align-content: center;
+  }
+      .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+      
+  .Navbar__Items {
+      display:none;
+      
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+
+  .square{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 48px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #1D3461;
+  }
+
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
