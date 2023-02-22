@@ -573,7 +573,7 @@ margin-bottom: 70px;
   height: 40px;
   width: 40px;
 }
-#changePasswordForm input,button{
+#changePasswordForm input{
   margin-top: 15px;
 }
 #passwordChange{
@@ -588,6 +588,7 @@ margin-bottom: 70px;
   width: 75%;
   height: 350px;
   background-color: rgba(130, 156, 188, 0.8);
+  backdrop-filter: blur(4px);
 }
 
 #flex{
@@ -614,6 +615,7 @@ margin-bottom: 70px;
   border: none;
   text-indent: 10px;
 }
+
 #passwordForm input::placeholder{
   text-indent: 10px;
   color: white;
@@ -621,7 +623,7 @@ margin-bottom: 70px;
 }
 #passwordTitle{
   font-size: 32px;
-  font-weight: bolder;
+  font-weight:900;
   color: #1d3461;
 }
 #changePasswordForm button{
