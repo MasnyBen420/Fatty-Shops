@@ -38,18 +38,33 @@
  </nav>
 </div>
 
-  <div class="main">
-<div id="accountDetails">
+  <div class="main ">
+<div class="" id="accountDetails">
     <img id="accountImage" src="./accountImage.png" alt="">
   
     <p id="accountName">Name</p>
 </div>
-<div id="accountButtons"></div>
-    <button id="myProject">My Project</button><br>
-    <button id="logout">Logout</button><br>
+    <button class="" id="myProject">My Project</button><br>
+    <button class="" id="logout">Logout</button><br>
     <button id="changePassword">Change <br> Password</button>
-
+   
+    <div id="passwordChange">
+      <img id="xImg" src="./passwordChange.png" alt="">
+<br>
+  <div id="title">  <p id="passwordTitle">Change Password</p>  </div>
+<div id="passwordForm">
+  <form method="post" id="changePasswordForm" action="./changePassword.php">
+    <label id="oldPassLabel" for="oldPass"> </label>
+    <input placeholder="Old Password..." id="oldPass" name="oldPass" type="text">
+    <label id="newPassLabel" for="newPass"> </label>
+    <input placeholder="New Password..." id="newPass" name="newPass" type="text">
+    <button type="submit">Submit</button>
+  </form>
 </div>
+    </div>
+
+  </div>
+
 
 <div id="noAccount">
 

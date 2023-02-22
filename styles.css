@@ -85,10 +85,12 @@ body {
     font-weight: bolder;
     align-items: center;
     align-content: center;
+    z-index: 200;
   }
   .Navbar__Items,
   .Navbar {
     flex-direction: column;
+    z-index: 200;
   }
 
   .Navbar__Items {
@@ -564,6 +566,75 @@ margin-bottom: 70px;
 /*############################################################################*/
 /*############################################################################*/
 
+#xImg{
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
+  height: 40px;
+  width: 40px;
+}
+#changePasswordForm input,button{
+  margin-top: 15px;
+}
+#passwordChange{
+  top: auto;
+  bottom: auto;
+  position: absolute;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  width: 75%;
+  height: 350px;
+  background-color: rgba(130, 156, 188, 0.8);
+}
+
+#flex{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20%;
+}
+
+#passwordForm{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} 
+#passwordForm input{
+  height: 60px;
+  font-size: 32px;
+  font-weight:400;
+  color: #ffffff;
+  background-color:  #1f487e;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  text-indent: 10px;
+}
+#passwordForm input::placeholder{
+  text-indent: 10px;
+  color: white;
+  font-weight:bolder;
+}
+#passwordTitle{
+  font-size: 32px;
+  font-weight: bolder;
+  color: #1d3461;
+}
+#changePasswordForm button{
+  margin-top: 10px;
+  height: 60px;
+  font-size: 32px;
+  font-weight:700;
+  color: #fff;
+  background-color: #1d3461;
+  width: 40%;
+  border-radius: 10px;
+  border: none;
+}
 .noAccountAlert{
   text-shadow: 4px 4px 6px rgba(66, 68, 90, 0.5);
   color: #1d3461;
@@ -649,7 +720,9 @@ margin-top: 15px;
   color: white;
 }
 
-
+#title{
+  text-shadow: 4px 4px 6px rgba(66, 68, 90, 0.5);
+}
 }
 
 
