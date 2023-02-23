@@ -76,7 +76,7 @@ body {
     text-decoration: none;
   }
 
-  .Navbar {
+  .navbar {
     background-color: #1f487e;
     display: flex;
     font-family: sans-serif;
@@ -87,17 +87,17 @@ body {
     align-content: center;
     z-index: 200;
   }
-  .Navbar__Items,
-  .Navbar {
+  .navbarLinks,
+  .navbar {
     flex-direction: column;
     z-index: 200;
   }
 
-  .Navbar__Items {
+  .navbarLinks {
     display: none;
   }
 
-  .Navbar__ToggleShow {
+  .navbarShow {
     display: flex;
     position: fixed;
     margin-top: 76px;
