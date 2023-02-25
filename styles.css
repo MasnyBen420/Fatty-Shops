@@ -57,6 +57,7 @@ body {
   footer {
     background-color: #1d3461;
     width: 100%;
+    height: 64px;
     bottom: -1px;
     position: fixed;
     display: flex;
@@ -232,6 +233,34 @@ body {
 .hidden{
   display: none;
 }
+@media only screen and (max-width: 365px){
+  
+  .namesInputs::placeholder{
+    color: #829CBC ;
+    text-indent:12px ;
+    font-size: 24px;
+    font-weight: bolder; 
+  }
+  .colorsInputs::placeholder{
+    color: #829CBC ;
+    text-indent:12px ;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  
+#generuj{
+  margin-top: 30px;
+  margin-bottom: 90px;
+  width: 50%;
+  font-weight: bold;
+  height: 75px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 32px;
+  color: #ffffff;
+  background-color: #1d3461;
+}
+}
 .namesInputs::placeholder{
   color: #829CBC ;
   text-indent:12px ;
@@ -337,7 +366,31 @@ body {
   border: none;
   margin-top: 15px;
 }
-
+@media only screen and (max-width: 380px){
+  .titleLogin{
+    margin-top: 100px;
+    color: #1d3461;
+    font-weight: bolder;
+    font-size: 64px;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 0.5);
+  }
+  .loginInput2{
+    height: 60px;
+    font-size: 24px;
+    font-weight:bolder;
+    color: #fff;
+    background-color: #1d3461;
+    width: 75%;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+  }
+  .loginInput2::placeholder{
+    color: #829CBC;
+    font-weight: bolder;
+    text-indent: 12px;
+  }
+}
 
 /*############################################################################*/
 /*############################################################################*/
@@ -348,6 +401,7 @@ body {
 /*############################################################################*/
 /*############################################################################*/
 /*############################################################################*/
+
 
 
 #contact{
@@ -692,7 +746,7 @@ margin-bottom: 70px;
   justify-content: center;
   text-align: center;
 }
-#myProject{
+.myProject{
 background-color: #6290C8;
 border: none;
 color: white;
@@ -700,7 +754,6 @@ font-size: 48px;
 font-weight: bolder;
 width: 70%;
 border-radius: 15px;
-margin-top: 15px;
 }
 #logout{
   background-color: #1f487e;
@@ -710,6 +763,8 @@ margin-top: 15px;
   width: 70%;
   font-weight: bolder;
   border-radius: 15px;
+  margin-top: 25px;
+
 
 }
 #changePassword{
@@ -720,11 +775,37 @@ margin-top: 15px;
   background-color: #1d3461;
   border: none;
   color: white;
+  margin-top: 25px;
 }
 
 #title{
   text-shadow: 4px 4px 6px rgba(66, 68, 90, 0.5);
 }
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+
+  /*  MYPROJECTS.HTML DEDICATED */
+
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+
+.project{
+  margin-top: 90px;
+  padding: 0px;
+  border-radius: 37px;
+  border: 1px solid;
+}
+.project p{
+  background-color: #1d3461;
+  color: white;
+  border-bottom-right-radius: 37px;
+  border-bottom-left-radius: 37px;
+  font-size: x-large;
+}
+
+
 }
 
 
