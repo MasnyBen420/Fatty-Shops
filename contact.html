@@ -11,11 +11,22 @@
     <link rel="shortcut icon" href="./favico.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-<header>
-  <a href="./index.html">    <img src="./logo small.png" id="smallImgHeader1" alt="">
-  </a>    <img src="./toggle button.png" id="smallImgHeader2" class="navbarToggle" alt="">
-</header>
+<body scrolling="no">
+  <header>
+    <a href="./index.html"><img src="./logo small.png" id="smallImgHeader1" alt=""></a>
+     
+  
+    <table id="navbarTable">
+      <tr>
+        <td><a  class="underlineAnimation" href="./index.html">Main Page</a></td>
+        <td><a class="underlineAnimation" href="./generator.html">Shop Generator</a></td>
+        <td>  <a class="underlineAnimation" href="./contact.html">Contact</a></td>
+        <td><a  class="underlineAnimation"href="">About</a></td>
+        <td><a  href="./account.html"><img id="accountBoxLogo" src="./navbarAccountImage.png" alt=""></a></td>
+      </tr>
+    </table>
+    </a>    <img src="./toggle button.png" id="smallImgHeader2" class="navbarToggle" alt="">
+  </header>
 	
 <div class="navbar">
   <nav class="navbarLinks">
@@ -39,32 +50,31 @@
  </div>
 
 
-
+  <img src="./contactImagePC.png"id="mainContact" alt="">
 <div id="contact">
 
-    <div id="contactus">
-        <p>Contact Us!</p>
-    </div>
+  <div id="contactus">
+      <p>Contact Us!</p>
+  </div>
 
-    <form method="post" action="./contact.php">
-      
-        <input placeholder="First Name..." class="input1" id="fname" name="fname" type="text"><br>
+  <form method="post" action="./contact.php">
     
-        <input placeholder="Last Name..." class="input1" id="lname" name="lname" type="text"><br>
+      <input placeholder="First Name..." class="input1" id="fname" name="fname" type="text"><br>
+  
+      <input placeholder="Last Name..." class="input1" id="lname" name="lname" type="text"><br>
 
-        <input placeholder="Email..."  class="input1" id="email" name="email" type="email"><br>
+      <input placeholder="Email..."  class="input1" id="email" name="email" type="email"><br>
 
-        <textarea placeholder="Your message..." id="message" name="message" cols="30" rows="4"></textarea><br>
-    
+      <textarea placeholder="Your message..." id="message" name="message" cols="30" rows="2"></textarea><br>
+  
 <div id="buttons">
-    <button id="submit" type="submit">Send</button>
+  <button id="submit"  type="submit">Send</button>
 
-    <button id="reset" type="reset">Reset</button>
+  <button id="reset" type="reset">Reset</button>
 </div>
 
-    </form>
+  </form>
 </div>
-
 
 
 <footer>
